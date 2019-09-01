@@ -1,42 +1,43 @@
-html,body {
-    height: 100%;
-    margin-bottom: 300px;
+html,
+body {
+  height: 100%;
+  margin-bottom: 300px;
 }
 
 .jumbotron {
-    background: none;
-    color: goldenrod;
+  background: none;
+  color: midnightblue;
 }
 
 body {
-    background-image:url(https://mediad.publicbroadcasting.net/p/wemu/files/styles/x_large/public/201611/1280px-Flag_of_Michigan.svg__0.png);
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/376/52/1012/st-joseph-north-pierhead-lighthouse-st-joseph-michigan-wallpaper-1ba6fc7d43c1cf59f5645b69cddc3ca0.jpg);
 }
 
-.container-fluid{
-    background-color: goldenrod;
-    width: 75%;
-    align-content: center;
+.container-fluid {
+  background-color: goldenrod;
+  width: 70%;
+  align-content: center;
 }
 
 .navbar {
-   width: 50%;
-    align-content: center;
-    margin-left: 25%;
+  width: 50%;
+  align-content: center;
+  margin-left: 25%;
 }
 
 .form-check-label {
-    font-weight: bolder; 
-    font-size: 20pt;
+  font-weight: bolder;
+  font-size: 20pt;
 }
 
-input[type=radio]{
-    transform:scale(2);
-  }
+input[type="radio"] {
+  transform: scale(2);
+}
 
-  #submit-button{
-      transform: scale(2);
-  }
+#submit-button {
+  transform: scale(2);
+}
 
-  #start-button {
-      transform: scale(2);
-  }
+#start-button {
+  transform: scale(2);
+}
