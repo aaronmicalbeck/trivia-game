@@ -26,9 +26,14 @@ var score = 0;
 
 
 // FUNCTIONS //
-$("#start-button").click(makeVisible);
+$("#start-button").click(makeQuestionsVisible);
 $("#start-button").click(run);
 $("#submit-button").click(gameOver);
+$("#submit-button").click(makeScoreVisible);
+$("#submit-button").click(stop);
+
+
+
 // ////////////////
 // 
 // TIMER FUNCTIONS
@@ -97,9 +102,15 @@ function stop() {
 // 
 // ///////////////
 
-function makeVisible() {
-    $(".container-fluid").css("visibility", "visible")
+function makeQuestionsVisible() {
+    $(".container-fluid").css("visibility", "visible");
+   
 };
+function makeScoreVisible(){
+    $("#score-view").css("visibility","visible");
+};
+
+
 function gameOver(){
     console.log("WORKING!");
     var score = 0;
