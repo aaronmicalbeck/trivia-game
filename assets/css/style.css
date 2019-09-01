@@ -3,12 +3,17 @@ html,body {
     margin-bottom: 300px;
 }
 
+.jumbotron {
+    background: none;
+    color: goldenrod;
+}
+
 body {
-    background-color: bisque;
+    background-image:url(https://mediad.publicbroadcasting.net/p/wemu/files/styles/x_large/public/201611/1280px-Flag_of_Michigan.svg__0.png);
 }
 
 .container-fluid{
-    background-color: rgb(230, 146, 146);
+    background-color: goldenrod;
     width: 75%;
     align-content: center;
 }
@@ -18,3 +23,20 @@ body {
     align-content: center;
     margin-left: 25%;
 }
+
+.form-check-label {
+    font-weight: bolder; 
+    font-size: 20pt;
+}
+
+input[type=radio]{
+    transform:scale(2);
+  }
+
+  #submit-button{
+      transform: scale(2);
+  }
+
+  #start-button {
+      transform: scale(2);
+  }
